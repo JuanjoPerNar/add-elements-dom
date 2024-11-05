@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(221, 21, 21, 0.332);
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: rgba(226, 136, 34, 0.466);
+    padding: 15px 25px;
+    border: black 2px solid;
+    border-radius: 4px;
+}
+
+#lista li {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgb(57, 52, 52);
+}
+
+#agregar {
+    background-color: rgb(255, 136, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#agregar:hover {
+    background-color: rgba(255, 98, 0, 0.76);
+}
